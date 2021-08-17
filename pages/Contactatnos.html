@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final</title>
+    <link rel="stylesheet" href="../src/style/estilo.css">
+    <script src="../src/style/ejercio.js"></script>
+    <link rel="shortcut icon" href="src/img/icono-uth.png" type="image/x-icon">
+</head>
+<body>
+<header>
+    <div>
+
+        <div class="logo">
+            <div>
+                <img src="../src/img/logo-1.png" alt="">
+            </div>
+
+        </div>
+
+
+        <div class="menu-var">
+            <div>
+                <a href="../principal.html">INICIO</a>
+                <a href="informativo.html">INFORMATIVO</a>
+                <a href="plan_estudio.html  ">PLAN ESTUDIO</a>
+                <a href="#">CONTACTANOS</a>
+            </div>
+        </div>
+
+        <div class="banner">
+            <div>
+                <img src="../src/img/banners.jpeg" alt="">
+            </div>
+
+        </div>
+
+        <section>
+            <article>
+                <h2 style="text-align: center;">Contactanos</h2>
+                <form action="recibirdatos.php" name="formularioInscripcion" method="GET">
+                    <table style="margin: auto;">
+                        <tr>
+                            <td colspan="3">
+                                <h3 style="background-color: rgb(223, 221, 221);">Datos</h3>
+                            </td>
+                        </tr>
+                        <tr>
+                           <td>
+                                <h4>Nombre <span style="color: red;">*</span></h4>
+                                <input type="text" name="txtNombreEstudiante" size="45" placeholder="Ingrese el nombre del estudiante" required minlength="3" maxlength="10" autocomplete="off" autofocus pattern="[a-zA-Z]{3,10}">
+                           </td>
+                           <td>
+                                <h4>Segundo nombre <span style="color: red;">*</span></h4>
+                                <input type="text" name="txtSegundoNombreEstudiante" size="45" placeholder="Ingrese el segundo nombre del estudiante" required minlength="3" maxlength="10" autocomplete="off" pattern="[a-zA-Z]{3,10}">
+                           </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Primer apellido<span style="color: red;">*</span></h4>
+                                <input type="text" name="txtPrimerApellidoEstudiante" size="45" placeholder="Ingrese el primer apellido del estudiante" required minlength="3" maxlength="10" autocomplete="off" pattern="[a-zA-Z{3,10}">
+                            </td>
+                            <td>
+                                <h4>Segundo apellido <span style="color: red;">*</span></h4>
+                                <input type="text" name="txtSegundoApellidoEstudiante" size="45" placeholder="Ingrese el segundo apellido del estudiante" required minlength="3" maxlength="10" autocomplete="off" pattern="[a-zA-Z]{3,10}">
+                            </td>
+                        </tr>
+                       
+                        <tr>
+                            
+                            <td>
+                                <h4>Email <span style="color: red;">*</span></h4>
+                                <input type="text" name="txtEmailPadre" size="45" required autocomplete="off" maxlength="30"  minlength="3" placeholder="Escriba su email" pattern="[a-z0-9_]+([.][a-z0-9_]+)*@[a-z0-9_]+([.][a-z0-9_]+)*[.][a-z]{1,5}" title="Por favor, ingrese el correo en minuscula">
+                            </td>
+
+                            <td>
+                                <h4>Teléfono<span style="color: red;">*</span></h4>
+                                <input name="txtTelefonoResidenciaPadre" type="tel" size="45" required autocomplete="off"
+                                placeholder="Ingrese el numero de telefono"
+                                title="Utilice el formato correcto" pattern="[0-9]{3,10}">
+                            </td>
+                        
+                        </tr>
+                       
+                        <tr>
+                            <td colspan="3">
+                                <!--Describa el Necesidad Educativa Especial (NEE)-->
+                                <h4>Describa</h4>
+                                <textarea name="txtdescribaNEE" cols="150" rows="6" maxlength="10" minlength="3"></textarea>
+                            </td>
+                        </tr>
+    
+                        <tr>
+                            <td>
+                                <br>
+                                <input type="submit" value="Enviar" style="margin: auto;">
+                            </td>
+                        </tr>
+                    </table>   
+                </form>
+    
+            </article>
+        </section>
+
+
+
+</header>   
+
+
+<footer>
+    <div class="footer">
+        <div >
+            <p>COPIRIGTH 2021 DISEÑADO POR EMIL FERNANDO</p>
+     </div>
+    </div>
+   
+</footer>
+</body>
+</html>

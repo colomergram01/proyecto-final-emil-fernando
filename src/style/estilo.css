@@ -1,0 +1,291 @@
+body
+{
+    margin: 16px;
+}
+
+.header_1
+{
+    background-color: aqua;
+}
+
+
+
+.logo
+{
+ display: flex;  
+ flex-direction: row;
+}
+
+.logo div
+{
+    width: 100%;
+    opacity: 0.9;
+    margin:10px;
+    text-align: center;
+    font-size:30px;
+    border-radius:8px;
+    border:1px solid white;
+    padding: 5px;
+    color: white;
+    
+
+}
+
+.logo div img 
+{
+ max-width: 30%;
+ height: auto;
+}
+
+/*MENU */
+.menu-var
+{
+display: flex;  
+ flex-direction: row;
+
+}
+
+.menu-var div 
+{
+   
+    width: 100%;
+    opacity: 0.9;
+    text-align: center;
+    font-size:30px;
+    border-radius: 8px;
+    border: 1px solid white;
+    background-color: rgb(226, 181, 98);
+    line-height:  70px; 
+    padding: 5px;
+}
+
+.menu-var div a 
+{
+    text-decoration: none;
+    color:white;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    margin:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.menu-var div a:hover{
+    background-color:rgb(64, 224, 149);
+    font-size: 28px;
+    color:white
+}
+
+.banner 
+{
+    display: flex;
+    flex-direction:row;
+}
+
+.banner div{
+    width: 100%;
+    /*background-color: rgb(54, 78, 32);*/
+    border-radius: 10px;
+}
+
+.banner div img 
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left:10px;
+    margin-right: 10px;
+    width: 1300px;
+    text-align: center;
+    
+}
+
+.banner div img:hover{
+  box-shadow: 0 0 2px 4px rgb(64, 224, 149);
+ 
+}
+
+.flexis
+{
+display: flex;
+padding-top: 30px;
+
+}
+  
+
+.Mision 
+{
+width: 50%;
+padding-left: 2rem;
+text-align: center;
+
+/*border: 1px solid black;*/
+}
+
+
+.Mision img
+{
+    width: 150px;
+}  
+
+.Vision
+{
+    width: 50%;
+    padding-right: 2rem;
+    text-align: center;
+    /*border: 1px solid black;*/
+
+}
+
+.Vision div p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+.Vision img
+{
+   width: 150px;
+   
+}
+
+
+
+h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+
+
+.Informacion_universitaria div p
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.Informacion_universitaria div 
+
+{
+    background-color: rgb(64, 224, 157);
+    width: 1300px;
+}
+
+
+.Plan_estudio
+{
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+}
+
+.Plan_estudio div img
+{
+    width: 650px;
+}
+
+
+.detalles_carrera
+{
+    background-color: white;
+}
+
+.Plan_estudio div p
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+h3 h2
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Carrera_disponible
+{
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+
+}
+
+.Carrera_disponible div 
+{
+    width: 100%;
+    margin-left:8px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.Carrera_disponible div img{
+    border: 1px solid white;
+    border-radius: 8px;
+    max-width: 95%;
+    height: auto;
+}
+
+.Carrera_disponible div img:hover
+{
+    box-shadow: 0 0 2px 4px rgb(64, 224, 157);
+
+}
+
+.Industrial img
+{
+width: 250px;
+text-align: center;
+}
+
+
+.Financiera img
+{
+width: 250px;
+text-align: center;
+}
+
+.Computación img
+{
+    width: 250px;
+    text-align: center;
+}
+
+.Contactenos_mapa
+{
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+    /*background-color: dodgerblue;*/
+}
+
+.Contactenos_mapa div
+{
+    width: 100%;
+    border: 1px solid white;
+    line-height: 70px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+    background-color: rgb(149, 149, 150);
+    padding-top: 35px;
+}
+
+.footer div
+{
+    width: 100%;
+    border: 1px solid white;
+    line-height: 70px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.footer div p
+{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 20px;
+}
